@@ -108,11 +108,12 @@ input:valid ~ label{
 .remember-forget a{
     text-decoration: double;
     font-weight: bold;
-    color: black;
+    color: #7e0826;
+    transition: 0.5s;
 }
 .remember-forget a:hover{
     text-decoration: underline solid 2px;
-    color: aquamarine;
+    color: #2e2c2c;
 }
 
 button{
@@ -146,9 +147,10 @@ button:hover{
     text-decoration: none;
     outline: none;
     color: black;
+    transition: 0.5s;
 }
 
 .register a:hover{
     text-decoration: underline solid 2px;
-    color: aquamarine;
+    color: #2e2c2c;
 }
